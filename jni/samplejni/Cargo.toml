@@ -1,0 +1,11 @@
+[package]
+name = "samplejni"
+version = "0.1.0"
+authors = ["Hatter Jiang@Pixelbook <jht5945@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+jni = "0.13.0"
+
+[lib]
+crate_type = ["cdylib"]

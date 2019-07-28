@@ -4,5 +4,5 @@ Rust tests
 Tests:
 * totp - TOTP/HOTP test
 * cpp - Rust call CPP test
-
+* jni - Java JNI test
 
