@@ -1,0 +1,14 @@
+[package]
+name = "c_export"
+version = "0.1.0"
+authors = ["Hatter Jiang <jht5945@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "stringtools"
+crate-type = ["dylib"]
+
+[dependencies]
+libc = "0.2.60"

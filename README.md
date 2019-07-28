@@ -5,4 +5,6 @@ Tests:
 * totp - TOTP/HOTP test
 * cpp - Rust call CPP test
 * jni - Java JNI test
+* c_export - Other languages call Rust test
+
 
