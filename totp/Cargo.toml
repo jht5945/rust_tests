@@ -1,0 +1,11 @@
+[package]
+name = "totp"
+version = "0.1.0"
+authors = ["Hatter Jiang <jht5945@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+time = "0.1.42"
+otpauth = "0.2.7"
