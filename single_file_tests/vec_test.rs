@@ -16,5 +16,10 @@ fn main() {
     while let Some(x) = v2.pop() {
         println!("{}", x);
     }
+
+    println!("Map:");
+    let v3 = vec![1, 2, 3];
+    let v4 = v3.iter().map(|&x| x * 2).collect::<Vec<_>>();
+    println!("{:?} -> {:?}", v3, v4);
 }
 
