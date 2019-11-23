@@ -18,7 +18,7 @@ fn main() {
     }
 
     println!("Map:");
-    let v3 = vec![1, 2, 3];
+    let v3: Vec<i32> = (0..3).collect();
     let v4 = v3.iter().map(|&x| x * 2).collect::<Vec<_>>();
     println!("{:?} -> {:?}", v3, v4);
 }
