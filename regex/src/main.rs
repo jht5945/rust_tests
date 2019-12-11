@@ -21,4 +21,7 @@ fn main() {
     println!("{}", re2.replace_all("Hello 100, 200", | caps: &regex::Captures<'_> | {
         "[".to_owned() + &caps[1] + "]"
     }));
+
+    let re3 = Regex::new(r"(?P<x>\d+)").unwrap();
+    println!("{}", re3.replace_all("Hello 100, 200", "<$x>"));
 }
